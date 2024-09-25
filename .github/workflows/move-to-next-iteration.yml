@@ -7,7 +7,7 @@ jobs:
     name: Move to next iteration
     runs-on: ubuntu-latest
     steps:
-    - uses: blombard/move-to-next-iteration@master
+    - uses: blombard/move-to-next-iteration@v0.5.0
       with:
         owner: Blombard
         number: 1
